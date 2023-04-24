@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cadastro de Professor</title>
+
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+   <header class="header">
+   
+      <section class="flex">
+   
+         <a href="#" class="logo">Smart<span>Study</span></a>
+   
+   
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+   
+         <div class="profile">
+            <img src="images/davi.jpg" class="image" alt="">
+            <h3 class="name">Davi Santiago</h3>
+            <p class="role">Estudante</p>
+            <a href="profile.html" class="btn">Ver Perfil</a>
+         </div>
+   
+      </section>
+   
+   </header>   
+   
+   <div class="side-bar">
+   
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+   
+      <div class="profile">
+         <img src="images/davi.jpg" class="image" alt="">
+         <h3 class="name">Davi Santiago</h3>
+         <p class="role">Estudante</p>
+         <a href="profile.html" class="btn">Ver Perfil</a>
+      </div>
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>Sobre</span></a>
+         <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Cursos</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Professores</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>Contato</span></a>
+      </nav>
+   
+
+</div>
+
+<section class="form-container">
+
+   <form action="" method="post" enctype="multipart/form-data">
+      <h3>Cadastre-se Como Professor</h3>
+      <p>Nome:</p>
+      <input type="text" name="name" placeholder="Digite Seu Nome" maxlength="50" class="box">
+      <p>E-mail:</p>
+      <input type="email" name="email" placeholder="silva@gmail.com" maxlength="50" class="box">
+      <p>Senha:</p>
+      <input type="password" name="new_pass" placeholder="Digite Sua Senha " maxlength="20" class="box">
+      <p>Corfime Sua Senha:</p>
+      <input type="password" name="c_pass" placeholder="Digite Sua Senha novamente  " maxlength="20" class="box">
+      <p>Foto ou Avatar:</p>
+      <input type="file" accept="image/*" class="box">
+      <input type="submit" value="Enviar" name="submit" class="btn">
+   </form>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   Desenvolvido por  <span>Davi Santiago e Edson Bastos</span> 
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
