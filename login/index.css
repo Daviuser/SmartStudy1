@@ -190,6 +190,7 @@ a:hover{
 	cursor: pointer;
 	transition: .5s;
 }
+
 .btn:hover{
 	background:var(--gradient);
 }

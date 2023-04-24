@@ -82,7 +82,7 @@ header('location: login.php');
                  </div>
               </div>
             	<a href="login.php">Quer Fazer Login?</a>
-            	<input type="submit" name="submit" value="Entrar">
+            	<input type="submit" name="submit" class="btn" value="Entrar">
 				
             </form>
         </div>
