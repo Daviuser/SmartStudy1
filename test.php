@@ -20,7 +20,7 @@ else{
     $_SESSION['senha'] = $senha;
     header('location: home.php');
 
-    $logado = $_SESSION['email'];
+   
 }
 }
 

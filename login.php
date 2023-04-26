@@ -14,7 +14,7 @@
 			<img src="login/img/undraw_mobile_development_re_wwsn.svg">
 		</div>
 		<div class="login-content">
-			<form action="" method="post">
+			<form action="test.php" method="post">
 				<img src="login/img/undraw_pic_profile_re_7g2h.svg">
 				<h2 class="title">Bem-Vindo</h2>
            		<div class="input-div one">
